@@ -1,6 +1,5 @@
 from unittest import TestCase
 from ipynb.fs.full.index import *
-from io import BytesIO
 
 class TxTest(TestCase):
 
