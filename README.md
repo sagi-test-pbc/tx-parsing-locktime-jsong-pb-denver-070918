@@ -1,5 +1,5 @@
 
-# Parsing Locktime from a Transaction [NOT WORKING]
+# Parsing Locktime from a Transaction
 
 Locktime is a way to time-delay a transaction. A transaction with a locktime of 525,000 cannot go into the blockchain until block 525,000. this was originally construed as a way to do payment channels (see sidebar). The rule with locktime is that if the locktime is greater than 500,000,000, it is a unix time stamp. If it is less than 500,000,000, it is a block number. This way, transactions can be signed, but unspendable until a certain point in time or block.
 
